@@ -70,14 +70,36 @@
 
 <h2>FORMULARIOS</h2>
 <button>Hola mundo</button>
-<form action="http://localhost:3000" method="get">
-    <button type="button">
-        No hago nada
-    </button>
+<form action="http://localhost:3000/Auth/login" method="post">
+    <input type="text" name="username">
+    <input type="text" name="password">
+
     <button type="submit">
-        Enviar
+        enviar
+    </button>
+    <button type="button">
+        Hola mundo
+    </button>
+    <button type="reset">
+        enviar2
     </button>
 </form>
+
+<h2>IFRAME</h2>
+
+<iframe id="saew" src="https://saew.epn.edu.ec"
+        frameborder="0"
+>
+
+</iframe>
+
+<script>
+
+/*   var etiquetaSaew= document.getElementById("saew");
+   etiquetaSaew.contentWindow.addEventListener("keypress", function (evento) {
+       console.log(evento);
+   })*/
+</script>
 
 
 </body>
